@@ -23,6 +23,7 @@
     
     <!-- Theme CSS -->  
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/menu.css">
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -33,7 +34,7 @@
 
 <body>
     <!-- ******HEADER****** --> 
-    <header class="header">
+    <header class="header" id="home_id">
         <div class="container">                       
             <img class="profile-image img-responsive pull-left" src="assets/images/avatar2.png" alt="LE Van Linh" />
             <div class="profile-content pull-left">
@@ -54,6 +55,16 @@
     <div class="container sections-wrapper">
         <div class="row">
             <div class="primary col-md-8 col-sm-12 col-xs-12">
+                <section class="about section" style="margin-bottom:10px">
+                    <nav class="nav">
+	                    <ul>
+		                    <li><a href="#home_id">Home</a></li>
+                            <li><a href="#teach_id">Teaching</a></li>
+		                    <li><a href="#pub_id">Publications</a></li>
+		                    <li><a href="#work_id">Experiences</a>		                    
+	                    </ul>
+                    </nav>
+                </section>
                 <section class="about section">
                     <div class="section-inner">
                         <h2 class="heading">About Me</h2>
@@ -95,100 +106,68 @@
                                 </div><!--//desc-->         
                                 <!-- <a class="btn btn-cta-secondary" href="#" target="_blank"><i class="fa fa-thumbs-o-up"></i> Back my project</a> -->                 
                             </div><!--//item-->
-                            <!-- <hr class="divider" />
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank">Velocity - Designed for Products</a></h3>
-                                    <p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="http://themes.3rdwavemedia.com/website-templates/responsive-bootstrap-theme-for-products-velocity/" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>//desc                          
-                            </div>//item
                             
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-1.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank">Tempo - Designed for Startups</a></h3>
-                                    <p>You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://wrapbootstrap.com/theme/tempo-designed-for-startups-WB07364T3?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>//desc                          
-                            </div>//item
-                            
-                            <div class="item row">
-                                <a class="col-md-4 col-sm-4 col-xs-12" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">
-                                <img class="img-responsive project-image" src="assets/images/projects/project-2.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-sm-8 col-xs-12">
-                                    <h3 class="title"><a href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank">Delta - Designed for Mobile Apps</a></h3>
-                                    <p> You can put one of your secondary projects here. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
-                                    <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                                </div>//desc                          
-                            </div>//item -->
                             
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section><!--//section-->
                 
-                <!-- <section class="projects section">
+                <section class="projects section" id="teach_id">
                     <div class="section-inner">
-                        <h2 class="heading">Other Projects</h2>
+                        <h2 class="heading">Teaching</h2>
                         <div class="content">
                             <div class="item">
-                                <h3 class="title"><a href="#">Project Title Cras Lacus</a></h3>
+                                <h3 class="title"><a href="#">Deep Learning (Master Bio-Informatic)</a></h3>
                                 <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
                                 <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
-                            </div>//item
+                            </div>
                             <div class="item">
-                                <h3 class="title"><a href="#">Project Title Cras eget lacus</a> <span class="label label-theme">Open Source</span></h3>
+                                <h3 class="title"><a href="#">TD GESTDON09 - Sciences de gestion </a></h3>
                                 <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
                                 <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div>//item
+                            </div>
                             <div class="item">
-                                <h3 class="title"><a href="#">Project Title Maecenas Ornare</a> <span class="label label-theme">Open Source</span></h3>
+                                <h3 class="title"><a href="#">TD SYSTINF-03 - Systemes d'information</a> <span class="label label-theme">Open Source</span></h3>
                                 <p class="summary">Provide a brief description of your project. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel purus enim. Etiam tortor felis, fermentum ac ultrices sed.</p>
                                 <p><a class="more-link" href="https://wrapbootstrap.com/theme/delta-promote-mobile-app-effectively-WB09R23P8?ref=3wm" target="_blank"><i class="fa fa-external-link"></i> View on GitHub</a></p>
-                            </div>//item
+                            </div>
                             
-                            <a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>
+                            <!--<a class="btn btn-cta-secondary" href="#">More on CoderWall <i class="fa fa-chevron-right"></i></a>-->
                             
-                        </div>//content  
-                    </div>//section-inner                 
-                </section>//section -->
+                        </div> 
+                    </div>          
+                </section>
                 
-                <section class="experience section">
+                <section class="experience section" id="pub_id">
                     <div class="section-inner">
                         <h2 class="heading">Publications</h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">Automated morphometrics using deep neural networks: a case study on
 a beneficial insect species <br/ ><span class="place"><a href="#" target="_blank">Van Linh LE, Marie BEURTON-AIMAR, Akka ZEMMARI, Nicolas PARISEY</a></span> <span class="year">(10th Symposium National de Morphometrie et Evolution des Formes (SMEF), Bordeaux - 2018)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b> In the context of ecosystem services, there is an interest in studying complex interactions between evolution of
+                                <!--<p style="text-align: justify"><b>Abstract:</b> In the context of ecosystem services, there is an interest in studying complex interactions between evolution of
 insect populations and environmental factors affecting their functions. In order to assess specifically pestregulating services and in line with studies pointing to
 shape traducing function, there are more and more research about morphometrics of beneficial insects. In such morphometric studies, it is common to analyze subject's shape independently of their poses and sizes using dedicated methods such as geometric morphometrics. In order to investigate the possibility of automated geometric morphometrics on beneficial insects, we chose to focus on one of the most common
 and ubiquitous beneficial insect of north-western France, Poecilus cupreus (Carabidae). The first step in any geometric morphometrics study is the digital imaging of the biological specimens, usually with
 controlled illumination and contrasting background. As such, morphometric landmark detection and positioning can be thought as a particular problem of features detection and solved using robust digital image
 processing. In the recent years, the term 'deep learning' emerged describing class of computational models composed of multiple processing layers learning representations of data with multiple levels of
-abstraction. In the deep learning field, convolutional neural networks (CNNs) are well known for their success in many computer vision tasks such as image classification and object recognition. Recent success of this algorithm in human biometry leads us to believe in its potential for insect morphometrics. Hence, we derived a CNN for automated geometric morphometrics and found promising prediction results on various anatomical parts.  </p>
+abstraction. In the deep learning field, convolutional neural networks (CNNs) are well known for their success in many computer vision tasks such as image classification and object recognition. Recent success of this algorithm in human biometry leads us to believe in its potential for insect morphometrics. Hence, we derived a CNN for automated geometric morphometrics and found promising prediction results on various anatomical parts.  </p>-->
                             </div><!--//item-->
 							<div class="item">
                                 <h3 class="title">Towards landmarks prediction with Deep Networks <br/ ><span class="place"><a href="#" target="_blank">Van Linh LE, Marie BEURTON-AIMAR, Akka ZEMMARI, Nicolas PARISEY</a></span> <span class="year">(ICPRS - 2018)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b> Morphometry landmarks are used in many biological applications. Mostly, the landmarks are defined manually or semi-automatically by applying the image processing techniques. In recent years, deep learning is known as a good solution to achieve image analysis tasks. It appears in many fields such as classification, recognition, face detection. In this context, we present a convolutional neural network to predict the landmarks on 2D biological images, specifically beetles images. The proposed model is designed from an elementary block of three layers: convolution, pooling, and dropout. The experiments on the proposed network have been done in two steps: training from scratch and fine-tuning from a trained model. The dataset includes the images of collecting from 293 beetles (on head, pronotum, body parts). Among these, a set of manual landmarks has been built for each part by the biologists. In this work, we have worked on prediction of pronotum landmarks. The quality of predicted landmarks is evaluated by calculating the distance in pixels between the coordinates of the predicted landmarks and manual landmarks which are considered as ground truth.  </p>
+                                <!--<p style="text-align: justify"><b>Abstract:</b> Morphometry landmarks are used in many biological applications. Mostly, the landmarks are defined manually or semi-automatically by applying the image processing techniques. In recent years, deep learning is known as a good solution to achieve image analysis tasks. It appears in many fields such as classification, recognition, face detection. In this context, we present a convolutional neural network to predict the landmarks on 2D biological images, specifically beetles images. The proposed model is designed from an elementary block of three layers: convolution, pooling, and dropout. The experiments on the proposed network have been done in two steps: training from scratch and fine-tuning from a trained model. The dataset includes the images of collecting from 293 beetles (on head, pronotum, body parts). Among these, a set of manual landmarks has been built for each part by the biologists. In this work, we have worked on prediction of pronotum landmarks. The quality of predicted landmarks is evaluated by calculating the distance in pixels between the coordinates of the predicted landmarks and manual landmarks which are considered as ground truth.  </p>-->
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Heritage Image Classification by Convolution Neural Networks<br/><span class="place"><a href="#" target="_blank">Manh Tu VU, Marie BEURTON-AIMAR, Van Linh LE</a></span> <span class="year">(MAPR - 2018)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b> In this project, we have explored the use of Convolution Neural Networks for semantic classification of heritage images. Recently four architectures, AlexNet, GoogLeNet, ResNet, and SENet have been proposed. We have tested them with two different learning modalities. Besides conventional training from scratch, we have resorted to pre-trained networks that are fine-tuned on a huge amount of data in order to avoid overfitting problems and to reduce design/computing time. Experiments on a dataset we built by ourselves from Heritage repository show that with the help of this step of fine-tuning, one of the simplest (and oldest) networks AlexNet is able to produce similar results than most sophisticated ones as ResNet which is pretty 3 times more consuming in computing time, mainly due to the number of the layer it uses. With this model, we have been able to show that our model can classify in the right way more than 98% of the images belonging to the dataset test. From now, this model can be used to classify the full data set of the Heritage repository. </p>
+                                <!--<p style="text-align: justify"><b>Abstract:</b> In this project, we have explored the use of Convolution Neural Networks for semantic classification of heritage images. Recently four architectures, AlexNet, GoogLeNet, ResNet, and SENet have been proposed. We have tested them with two different learning modalities. Besides conventional training from scratch, we have resorted to pre-trained networks that are fine-tuned on a huge amount of data in order to avoid overfitting problems and to reduce design/computing time. Experiments on a dataset we built by ourselves from Heritage repository show that with the help of this step of fine-tuning, one of the simplest (and oldest) networks AlexNet is able to produce similar results than most sophisticated ones as ResNet which is pretty 3 times more consuming in computing time, mainly due to the number of the layer it uses. With this model, we have been able to show that our model can classify in the right way more than 98% of the images belonging to the dataset test. From now, this model can be used to classify the full data set of the Heritage repository. </p>-->
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Landmarks detection by applying Deep networks <br><span class="place"><a href="#" target="_blank">Van Linh LE, Marie BEURTON-AIMAR, Akka ZEMMARI, Nicolas PARISEY</a></span> <span class="year">(MAPR - 2018)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b> Morphometric analysis is a general method applied to organisms and used to appreciate the covariances between the ecological factors and the organisms (shape, size, form,...) in which, landmark-based morphometry is known as one of the approaches to analyze the characteristics of organisms. Finding landmarks setting can give to biologists a comprehensive description of the organism. In this study, we propose a convolutional neural network (CNN) to predict the landmarks on beetle images. The network is designed as a pipeline of layers, it has been trained with a set of manually labeled landmarks dataset. Then, the network has been used to provide the morphometric landmarks on biological images automatically. The coordinates of predicted landmarks have been evaluated by computing their distance to the manual coordinates given by the biologists. Besides, the average of distance errors on each landmark has been also computed. The network model is implemented by Python on Lasagne framework.</p>
+                                <!--<p style="text-align: justify"><b>Abstract:</b> Morphometric analysis is a general method applied to organisms and used to appreciate the covariances between the ecological factors and the organisms (shape, size, form,...) in which, landmark-based morphometry is known as one of the approaches to analyze the characteristics of organisms. Finding landmarks setting can give to biologists a comprehensive description of the organism. In this study, we propose a convolutional neural network (CNN) to predict the landmarks on beetle images. The network is designed as a pipeline of layers, it has been trained with a set of manually labeled landmarks dataset. Then, the network has been used to provide the morphometric landmarks on biological images automatically. The coordinates of predicted landmarks have been evaluated by computing their distance to the manual coordinates given by the biologists. Besides, the average of distance errors on each landmark has been also computed. The network model is implemented by Python on Lasagne framework.</p>-->
                             </div><!--//item-->
                              <div class="item">
                                 <h3 class="title">MAELab: a framework  to automatize landmark estimation <br> <span class="place"><a href="https://hal.archives-ouvertes.fr/hal-01571440/document" target="_blank">Van Linh LE, Marie BEURTON-AIMAR, Adrien KRAHENBUHL, Nicolas PARISEY</a></span> <span class="year">(WSCG - 2017)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b>In biology, the morphometric analysis is widely used to analyze the inter-organisms variations. It allows to classify
+                                <!--<p style="text-align: justify"><b>Abstract:</b>In biology, the morphometric analysis is widely used to analyze the inter-organisms variations. It allows to classify
 and to determine the evolution of an organism’s family.  The morphometric methods consider features such as
 shape, structure, color, or size of the studied objects.  In previous works [8], we have analyzed beetle mandibles
 by using the centroid as feature,  in order to classify the beetles.   We have shown that the Probabilistic Hough
@@ -201,36 +180,31 @@ translation parameters.  Then, the patches in the query image are identified and
 The biologists have collected 293 beetles to provide two sets of mandible images separated into left and right side.
 The experiments show that, depending on the position of the landmarks on the mandible contour, the performance
 can go up to 98% of good detection.  The complete workflow is implemented in the MAELab framework, freely
-available as library on GitHub.</p>
+available as library on GitHub.</p>-->
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">SIFT descriptor to set landmarks on biological images<br> <span class="place"><a href="#" target="_blank">Van Linh LE, Marie BEURTON-AIMAR, Adrien KRAHENBUHL, Nicolas PARISEY</a></span> <span class="year">(GRETSI - 2017)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b>Image analysis is a large field in image processing and it has applied in practice with many application in the different majors such as medicine, computer vision, biology, ... In biology, images are widely used for a long time, to study molecule structures or behaviors,
+                                <!--<p style="text-align: justify"><b>Abstract:</b>Image analysis is a large field in image processing and it has applied in practice with many application in the different majors such as medicine, computer vision, biology, ... In biology, images are widely used for a long time, to study molecule structures or behaviors,
 tissues characteristics and in general to measure and to classify anatomical details. Classification of biological samples can be obtained from
 studying morphological features but at this time, setting morphological markers is done manually. In this work, we have focused on the problem
 to replace manual operations by automatic procedures to set landmarks which are point of interests in biological images. This paper presents
 how we have designed a specific way to use the SIFT descriptor to improve the results that we have obtained before to achieve this task. The two
 main characteristics of our method are the reduction of the patch area to compute de source descriptor and the definition of a restrictive search
 area of the target. The efficiency of the method is evaluated on two set of images: left and right mandibles of beetles belonging to a study of the
-national institute of agriculture (INRA). The complete method is implemented in a framework called MAELab and freely available on GitHub.</p>
+national institute of agriculture (INRA). The complete method is implemented in a framework called MAELab and freely available on GitHub.</p>-->
                             </div>
                             <div class="item">
                                 <h3 class="title">Estimating landmarks on 2D images of beetle mandibles <br><span class="place"><a href="http://wscg.zcu.cz/wscg2016/poster/E73-full.pdf" target="_blank">LE Van Linh, BEURTON-AIMAR Marie, SALMON Jean-Pierre, ALEXIA Marie, PARISEY Nicolas</a></span> <span class="year">(WSCG - 2015)</span></h3>
-                                <p style="text-align: justify"><b>Abstract:</b> Studying links between phenotype/genotype and agricultural practices is one of the main current topics in agronomical research. Phenotypes is the observable physical characteristics of an organism like its age, sex and more, often extracted with the help of image analysis of its morphology. Nowadays, getting good quality of images for numerous individuals is easy but that leads to design automatic procedures to replace manual  exploration of such
+                                <!--<p style="text-align: justify"><b>Abstract:</b> Studying links between phenotype/genotype and agricultural practices is one of the main current topics in agronomical research. Phenotypes is the observable physical characteristics of an organism like its age, sex and more, often extracted with the help of image analysis of its morphology. Nowadays, getting good quality of images for numerous individuals is easy but that leads to design automatic procedures to replace manual  exploration of such
 amount of data. Several bottlenecks have been identified to analyze automatically images. One of them is segmen-
 tation of selected area and/or shapes, another well-known one is setting automatically morphometric landmarks.
-Landmarks are points on the object which can be used to identify or to classify the objects...</p>
+Landmarks are points on the object which can be used to identify or to classify the objects...</p>-->
                             </div><!--//item-->
-                           <!-- <div class="item">
-                                <h3 class="title">Software Engineer - <span class="place"><a href="#">eBay</a></span> <span class="year">(2012 - 2013)</span></h3>
-                                <p>Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
-                            </div> --><!--//item-->
-                            
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
                 </section>
 
-                <section class="experience section">
+                <section class="experience section" id="work_id">
                     <div class="section-inner">
                         <h2 class="heading">Work Experience</h2>
                         <div class="content">
